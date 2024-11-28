@@ -1,18 +1,19 @@
 # SimuladorInvestimentosPy
-Simulador de Investimentos construído no Google Colab em meio a uma atividade proposta na universidade.
-***********************
-Este código realiza uma série de operações relacionadas a investimentos financeiros:
+***
+Investment Simulator built on Google Colab as part of an assignment proposed at university.
+***
+This code performs a series of operations related to financial investments:
 
-1 - Avaliação de Carteira: Define uma função avaliar_carteira que calcula o desempenho de uma carteira de investimentos com base nos retornos e riscos de cada investimento.
+1 - Portfolio Evaluation: Defines a function avaliar_carteira that calculates the performance of an investment portfolio based on the returns and risks of each investment.
 
-2 - Algoritmo Genético: Implementa funções para seleção por torneio, crossover de um ponto e mutação de troca, utilizadas em um algoritmo genético para otimizar a composição de uma carteira de investimentos ao longo de várias gerações.
+2 - Genetic Algorithm: Implements functions for tournament selection, one-point crossover, and swap mutation, used in a genetic algorithm to optimize the composition of an investment portfolio over several generations.
 
-3 - Lista de Investimentos: Gera uma lista de investimentos com valores aleatórios para retorno e risco, representando diferentes tipos de investimentos financeiros, como ações, títulos públicos, fundos de investimento, entre outros.
+3 - Investment List: Generates a list of investments with random values for return and risk, representing different types of financial investments, such as stocks, government bonds, mutual funds, among others.
 
-4 - Simulação de Oscilações nos Investimentos: Simula oscilações nos investimentos ao longo do tempo.
+4 - Simulation of Investment Fluctuations: Simulates fluctuations in investments over time.
 
-5 - Gerenciamento de Dados: Cria um arquivo CSV para armazenar dados simulados de investimentos e lê esses dados para análise.
+5 - Data Management: Creates a CSV file to store simulated investment data and reads this data for analysis.
 
-6 - Visualização de Dados: Utiliza a biblioteca Matplotlib para visualizar os dados simulados em um gráfico de dispersão, onde o eixo x representa o risco, o eixo y representa o retorno e a cor dos pontos indica o nível de risco. Também gera um histograma dos retornos dos investimentos.
+6 - Data Visualization: Uses the Matplotlib library to visualize the simulated data in a scatter plot, where the x-axis represents risk, the y-axis represents return, and the color of the points indicates the level of risk. It also generates a histogram of the investment returns.
 
-O código pode ser usado para otimizar a composição de uma carteira de investimentos com base em diferentes tipos de investimentos e suas características de retorno e risco.
+The code can be used to optimize the composition of an investment portfolio based on different types of investments and their return and risk characteristics.
